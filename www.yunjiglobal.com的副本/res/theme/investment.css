@@ -1,0 +1,37 @@
+
+.bm{
+	display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border: 1px solid rgba(0,0,0,.1);
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+}
+.new-button {
+	text-align: center;
+}
+
+.new-button>a {
+	display: inline-block;
+	border-radius: 10px;
+	border: 2px solid #dd0031;
+	width: 195px;
+	padding: 12px;
+	color: #ffffff;
+	text-align: center;
+	margin: 40px 0;
+	background-color: #dd0031;
+	letter-spacing: 2px;
+	font-size: 20px;
+}
+.new-button>a:hover{
+	background-color: #D31037;
+	border: 2px solid #D31037;
+}

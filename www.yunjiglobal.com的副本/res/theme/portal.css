@@ -1,0 +1,32 @@
+ul, ol, dl, dd, dt {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+*:focus {
+  outline: 0;
+}
+
+body {
+  font-family: "微软雅黑","Helvetica Neue",Helvetica,sans-serif;
+}
+
+.main:after {
+  content: " ";
+  clear: both;
+  display: table;
+}

@@ -1,0 +1,242 @@
+body {
+  	min-width: 1280px;
+}
+[v-cloak] {
+    display: none;
+}
+.small-font{
+    -webkit-transform-origin-x: 0;
+    -webkit-transform: scale(0.90);
+    font-size:10.8px;
+}
+.container{
+    width: 1280px;
+    height: auto;
+    margin: auto;
+}
+.top-bar{
+    width: 100%;
+    height: 33px;
+    background-color: #E5E5E5;
+    text-align: right;
+    line-height: 33px;
+}
+.top-bar span,.top-bar a{
+    display: block;
+    color: #878787;
+    float: right;
+}
+.top-bar .contact{
+    width: 118px;
+    height: 33px;
+    text-align: center;
+}
+.top-bar .line{
+    width: 2px;
+    height:33px;
+    background: url(../images/top-bar-icon1.png.html) center center no-repeat;
+}
+.top-bar .jobs{
+    width: 67px;
+    height: 33px;
+    text-align: center;
+}
+.top-bar .qrcode{
+    position: relative;
+    width: 12px;
+    height:33px;
+    background: url(../images/top-bar-icon2.png.html) center 10px no-repeat;
+    margin-left: 18px;
+    cursor: pointer;
+}
+.top-bar .qrcode .show-qrcode{
+    display: none;
+    position: absolute;
+    width: 130px;
+    height:131px;
+    background: url(../images/top-bar-qrcode-bg.png.html) left 0 no-repeat;
+    top:10px;
+    right:2px;
+    text-align: left;
+    z-index: 9;
+}
+.top-bar .qrcode .show-qrcode img{
+    width: 105px;
+    height: 105px;
+}
+.top-bar .qrcode .show-qrcode span:first-child{
+    display: inline-block;
+    width: 105px;
+    height: 105px;
+    text-align: center;
+    overflow: hidden;
+  	margin-left:2px;
+    float: left;
+}
+.top-bar .qrcode .show-qrcode span:last-child{
+    display: inline-block;
+    width: 105px;
+    height: 22px;
+    text-align: center;
+    line-height:22px;
+    overflow: hidden;
+    color: #000;
+    font-size: 11px;
+    float: left;
+ }
+.nav{
+    position: relative;
+    width: 100%;
+  	background-color:#dd0031;
+}
+.nav .logo{
+    width: 280px;
+    height:79px;
+    float: left;
+    line-height: 79px;
+}
+.nav .menu{
+    position:relative;
+    width: 1000px;
+    height:79px;
+    float: right;
+    text-align: right;
+}
+.nav .menu a{
+    display: inline-block;
+    width: auto;
+    height:79px;
+    font-size: 15px;
+    color: #fff;
+    margin-left: 56px;
+    line-height:79px;
+    letter-spacing: 1px;
+}
+.nav .menu .curBg {
+    background:#fff;
+    height:2px;
+    position:absolute;
+    bottom:23px;
+    width:64px;
+    left:456px;
+}
+.son-menu{
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    left:0;
+    top:79px;
+    background: url(../images/nav-sonmenu-bg.png.html) 0 0 repeat;
+    z-index: 9;
+    text-align: left;
+    display: none;
+    overflow: hidden;
+}
+.son-menu .con{
+    display: none;
+}
+.son-menu a{
+    display: inline-block;
+    line-height: 80px;
+    font-size: 15px;
+    color: #333;
+    margin-right: 45px;
+}
+.son-menu a:hover{
+    color: #e60012;
+}
+.footer{
+    width: 100%;
+    height:79px;
+    clear: both;
+    position: relative;
+  	background-color:#dd0031;
+}
+.footer .footer-logo{
+    width: 200px;
+    height:79px;
+    text-align: left;
+    line-height:79px;
+    float: left;
+}
+.footer .footer-name{
+    font-size: 14px;
+    color: #fff;
+    width: 880px;
+    text-align: center;
+    line-height:79px;
+    float: left;
+}
+.footer .footer-share{
+    width: 200px;
+    height:79px;
+    line-height:79px;
+    text-align: right;
+    float: left;
+    position: relative;
+}
+.footer .footer-share .weixin_gzh_qrcode{
+    width: 108px;
+    height: 160px;
+    position: absolute;
+    bottom:68px;
+    right:0;
+    background: url("images/weixin-gzh-qrcode-bg.png") 0 0 no-repeat;
+    overflow: hidden;
+  	display: none;
+}
+.footer .footer-share .weixin_gzh_qrcode .img{
+    width: 98px;
+    height: 98px;
+    overflow: hidden;
+    margin: 7px auto 7px auto;
+}
+.footer .footer-share .weixin_gzh_qrcode .tit{
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+    line-height: 16px;
+    font-size: 12px;
+    color: #333;
+    text-align: center;
+}
+.footer .footer-share .weixin_gzh_qrcode img{
+    margin: 0;
+    width: 98px;
+    height: 98px;
+}
+.footer .footer-share img{
+    margin-left: 4px;
+}
+#back-top{
+    display: block;
+    position: absolute;
+    left:50%;
+    top:-80px;
+    width: 55px;
+    height: 21px;
+    margin-left: -27px;
+    background: url(../images/icon-back-top.png.html) 0 0 no-repeat;
+    z-index: 999;
+    cursor: pointer;
+}
+.pagination{
+    text-align: right;
+}
+.pagination li{
+    width: 35px;
+    height: 37px;
+    background-color:#ffffff;
+    border:1px solid #eee;
+    text-align: center;
+    line-height: 37px;
+    display: inline-block;
+    margin: 0 2px;
+    color: #666;
+    font-size: 14px;
+}
+.pagination .disabled,.pagination .active{
+    background-color: #dd0031;
+    border:1px solid #dd0031;
+    color: #fff;
+}
